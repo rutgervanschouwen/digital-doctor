@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark">#1F2041</color>
+    <color name="dark_2">#42458A</color>
+    <color name="green">#50FFB1</color>
+    <color name="green_2">#4FB286</color>
+    <color name="green_dark">#3C896D</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#EEEEEE</color>
+    <color name="gray_2">#D5D5D5</color>
+    <color name="btn_disabled">#EEEEEE</color>
+    <color name="btn_disabled_text">#D5D5D5</color>
+    <color name="error">#FB4B4E</color>
+    <color name="error_light">#FCE7E7</color>
+</resources>

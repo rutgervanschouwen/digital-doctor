@@ -1,0 +1,156 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DigitalDoctor" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/dark</item>
+        <item name="colorAccent">@color/green_2</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Theme for the toolbar -->
+        <item name="colorControlNormal">@color/dark_2</item>
+    </style>
+
+    <style name="Theme.DigitalDoctor" parent="Base.Theme.DigitalDoctor" />
+
+    <style name="intro_subtitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontWeight">700</item>
+        <item name="android:textColor">@color/dark</item>
+    </style>
+
+    <style name="intro_title">
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontWeight">900</item>
+        <item name="android:textColor">@color/dark</item>
+    </style>
+
+    <style name="intro_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="android:textColor">@color/dark_2</item>
+    </style>
+
+    <style name="sub_heading">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:textColor">@color/dark</item>
+    </style>
+
+    <style name="heading_1">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontWeight">700</item>
+        <item name="android:textColor">@color/dark</item>
+    </style>
+
+    <style name="heading_2">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontWeight">700</item>
+        <item name="android:textColor">@color/dark</item>
+    </style>
+
+    <style name="questionTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontWeight">700</item>
+    </style>
+
+    <style name="btn">
+        <item name="backgroundTint">@color/green</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontWeight">700</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:paddingHorizontal">40dp</item>
+    </style>
+
+    <style name="icon_btn">
+        <item name="backgroundTint">@color/green</item>
+        <item name="iconTint">@color/dark</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="cornerRadius">4dp</item>
+    </style>
+
+    <style name="search_result">
+        <item name="background">@color/gray_2</item>
+    </style>
+
+    <style name="search_result_selected">
+        <item name="background">@color/gray</item>
+    </style>
+
+    <style name="btn_q_single">
+        <item name="android:layout_height">100dp</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="android:backgroundTint">@color/gray</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="btn_q_multiple">
+        <item name="cornerRadius">4dp</item>
+        <item name="android:backgroundTint">@color/gray</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="text_q_multiple">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/dark</item>
+    </style>
+
+    <style name="condition_aka">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dark_2</item>
+        <item name="android:fontWeight">700</item>
+    </style>
+
+    <style name="condition">
+        <item name="android:background">@color/gray</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:paddingHorizontal">10dp</item>
+        <item name="cornerRadius">4dp</item>
+    </style>
+
+    <style name="condition_circle">
+        <item name="trackColor">@color/gray_2</item>
+        <item name="indicatorColor">@color/green</item>
+    </style>
+
+    <style name="progress_num">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:fontWeight">700</item>
+    </style>
+
+    <style name="input">
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:paddingHorizontal">12dp</item>
+    </style>
+
+    <style name="topbar">
+        <item name="android:background">@color/dark</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+    <style name="message_important">
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:paddingHorizontal">10dp</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="android:background">@color/error_light</item>
+    </style>
+
+    <style name="message_important_text">
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="message_important_icon">
+        <item name="android:tint">@color/error</item>
+    </style>
+
+</resources>
